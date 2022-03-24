@@ -1,0 +1,25 @@
+.nav-menu{
+    padding: 0px 50px;
+}
+.nav-menu h2{
+    margin-top: -30px;
+    padding: 0 20px 10px 20px;
+}   
+.area-search{
+    position: relative;
+}
+.icon-search{
+    position: absolute;
+    top: 8px;
+    left: 93%;
+}
+.menu-border{
+    border: 1px solid #babdc0;
+}
+.menu-border h6{
+    padding:20px 0;
+}
+.menu-icon {
+    width: 15px;
+    height: 15px;
+}

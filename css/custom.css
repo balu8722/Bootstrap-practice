@@ -1,0 +1,44 @@
+.hsize{
+    font-size:xxx-large;
+}
+.slide-body{
+    margin: 300px;
+}
+.row-padding{
+    padding-top: 110px;
+}
+.btn-expand{
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+}
+.img-height{
+    width:100%;
+    height:100%;
+}
+.menu-label .nav-item{
+    padding: 0 20px 0 20px;
+}
+.wrap{
+    background-color: black;
+}
+.img-logo{
+    width: 100%;
+    height: 50px;
+    object-fit: cover;
+}
+.dropdown-toggle::after{
+    vertical-align: 0;
+}
+.card-background{
+    background-color: black;
+}
+.link-arrow img{
+    background-color: yellow;
+    margin: 50px 0px 0px 0;
+}
+.link-arrow a{
+    text-decoration-line: underline;
+}
+.nav-menu{
+    background-color: red;
+}
