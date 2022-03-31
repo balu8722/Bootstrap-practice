@@ -17,25 +17,25 @@
         <nav class="nav-menu" aria-label="breadcrumb">
           <ol class="breadcrumb bg-danger">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item active  text-light" aria-current="page">Add more</li>
+            <li class="breadcrumb-item active" aria-current="page">Library</li>
           </ol>
-          <div class="text-light bg-danger"><h2>Add new branch</h2></div>
+          <div class="text-light align-self-center bg-danger mt-0"><h2>Add new branch</h2></div>
         </nav>
     </div>
     <section class="mt-5">
         <div class="container">
             <div class="row">
-                <div class="col-sm-8 menu-border">
-                    <div><h6 class="d-flex"><i class="fa fa-user px-3"></i>BASIC INFO</h6></div>
-                <div class="shadow p-3 mb-4 bg-white rounded">
-                    <div class="form-group">
+                <div class="col-sm-8 menu-border px-0">
+                    <div><h6 class="bg-secondary d-flex"><i class="fa fa-user px-3"></i>BASIC INFO</h6></div>
+                    <div class="container">
+                    <div class="form-group mt-4">
                         <label for="Restaurant name*">Restaurant name*</label>
                         <div class="row">
                         <div class="col-sm-10">
                             <input type="rname" class="form-control" id="rname" placeholder="Enter name of the restaurant">
                         </div>
-                        <div class="col-sm-2">
-                            <a href="#"> <button type="button" class="btn btn-danger">Search</button></a>
+                        <div class="col-sm-2 p-0">
+                            <button type="button" class="btn btn-danger">Search</button>
                         </div>
                     </div>
                     </div>
@@ -44,20 +44,19 @@
                           <label for="inputEmail4">Area*</label>
                           <div class="area-search">
                              <input type="email" class="form-control" id="inputEmail4" placeholder="Search area">
-                             <div class="icon-search"><a href="#"><i class="fa fa-search"></a></i></div> 
+                             <div class="icon-search"><i class="fa fa-search"></i></div> 
                           </div>
                         </div>
                         <div class="form-group col-md-6">
                           <label for="inputPassword4">Paci*</label>
                           <div class="area-search">
                             <input type="email" class="form-control" id="inputEmail4" placeholder="Paci number">
-                            <div class="icon-search"><a href="#"><i class="fa fa-search"></a></i></div> 
+                            <div class="icon-search"><i class="fa fa-search"></i></div> 
                           </div>
                        </div>
                     </div>
                     <div class="mb-4">
                         <label for="Restaurant name*">Are you the owner or manager of this place?*</label>
-                        <form>
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="custom-control custom-radio custom-control-inline">
@@ -67,34 +66,31 @@
                             </div>
                             <div class="col-sm-6">
                                 <div class="custom-control custom-radio custom-control-inline">
-                                    <input type="radio" id="customRadioInline2" name="customRadioInline" class="custom-control-input">
-                                    <label class="custom-control-label" for="customRadioInline2">Im the owner/manager</label>
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Im the owner/manager</label>
                                 </div>
                             </div>
                         </div>
-                        </form>
                     </div>
                     <div>
                         <label for="Restaurant name*">Opening Status</label>
-                        <form>
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="custom-control custom-radio custom-control-inline">
-                                    <input type="radio" id="customRadioInline3" name="customRadioInline" class="custom-control-input">
-                                    <label class="custom-control-label" for="customRadioInline3">This place is already open</label>
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">This place is already open</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="custom-control custom-radio custom-control-inline">
-                                    <input type="radio" id="customRadioInline4" name="customRadioInline" class="custom-control-input">
-                                    <label class="custom-control-label" for="customRadioInline4">This place is opening soon</label>
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">This place is opening soon</label>
                                 </div>
                             </div>
                         </div>
-                        </form>
                     </div>
                     <div class="my-4">
-                        <label for="phone number">Phone number</label>
+                        <label>Phone number</label>
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="input-group phone-input">
@@ -103,109 +99,20 @@
                                 </div>
                             </div>
                             <div class="col-sm-3">
-                                <a href="#"> <button type="button" class="btn btn-danger btn-sm btn-add-phone">+ Add Number</button></a>
+                                <button type="button" class="btn btn-danger btn-sm btn-add-phone">+ Add Number</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 </div>
-                <div class="col-sm-4 menu-border">
-                    <div><h6 class="d-flex"><i class="fa fa-user px-3"></i>How it works</h6></div>
-                <div class="shadow p-3 mb-4 bg-white rounded">
-                    <ul>
-                        <li>if you are a owner of a restaurant, or if you are a usere who's discovered a place not listed on lugma. let us know using this form</li>
-                        <li>Once you send the information to us, our awesome content team will verify it.<br> provide a contact number or email address.</li>
-                        <li>That's it! Once verified the listing will start appearing on Lugma.</li>
-                    </ul>
+                <div class="col-sm-4 menu-border px-0">
+                    <div><h6 class="bg-secondary d-flex"><i class="fa fa-user px-3"></i>BASIC INFO</h6></div>
+                    <p>
+                        
+                    </p>
                 </div>
-                </div>
-                
-                <div class="col-sm-8">
-                    <div class="add-more">
-                        <select class="form-control" id="addmore">
-                            <option>+Add more info(optional)</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="col-sm-8 my-5">
-                    <div class="text-center">
-                        <a href="#"> <button type="button" class="btn btn-danger">ADD RESTAURANT</button></a>
-                    </div>
-                </div>
-            </div>                    
-        </div>
-    </section>
-    <section class="">
-        <div class="bg-dark pb-5">
-            <div class="container">
-              <div class="row">
-                <div class="col-sm-2 ">
-                  <h5 class="margin">Lugma</h5>
-                <dl>
-                  <dt class="link"><a href="#">About</a></dt>
-                  <dt class="link"><a href="#">create account</a></dt>
-                  <dt class="link"><a href="#">log in</a></dt>
-                  <dt class="link"><a href="#">career</a></dt>
-                  <dt class="link"><a href="#">contact us</a></dt>
-                </dl>
-                </div>
-                <div class="col-sm-2">
-                  <h5 class="margin">Business</h5>
-                  <dl>
-                    <dt class="link"><a href="#">Add restaurant</a></dt>
-                    <dt class="link"><a href="#">claim your business</a></dt>
-                    <dt class="link"><a href="#">Advertise your business</a></dt>
-                  </dl>
-                </div>
-                <div class="col-sm-3">
-                  <h5 class="margin">Popular areas</h5>
-                  <dl>
-                    <dt class="link"><a href="#">Ahmadi governorate desert(03)</a></dt>
-                    <dt class="link"><a href="#">AI shadadyia(86)</a></dt>
-                    <dt class="link"><a href="#">AI fintas(271)</a></dt>
-                    <dt class="link"><a href="#">AI Nuwaiseeb(50)</a></dt>
-                    <dt class="link"><a href="#">AI suban AI salem(71)</a></dt>
-                    <dt class="link"><a href="#">daher(13)</a></dt>
-                    <dt class="link"><a href="#">East ahmadi(30)</a></dt>
-                  </dl>
-                </div>
-                <div class="col-sm-5">
-                  <h5 class="margin">get updates from lugma</h5>
-                  <dl>
-                    <dt class="link"><a href="#">sign up to our newsletter to get news about offers</a></dt>
-                    <dt class="link"><a href="#">discounts from the best restaurant around you</a></dt>
-                  </dl>
-                    <div class="row"> 
-                    <div class="col-sm-8">
-                      <label for="staticEmail2" class="sr-only">Email</label>
-                      <input type="text" class="form-control" id="staticEmail2" placeholder="enter emil id">
-                    </div>
-                    <div class="col-sm-4">
-                        <a href="#"><button type="submit" class="btn btn-danger mb-2">subscribe</button></a>
-                  </div>
-                  </div>
-                  </div>
-              </div>
-              <div class="row pt-0">
-                  <div class="col-sm-6 d-flex">
-                      <small>
-                          <a href="#" class="pr-2 text-secondary">privacy policy</a> 
-                          <a href="#" class="pr-2 text-secondary">Terms and condition</a> 
-                          <a href="#" class="pr-2 text-secondary">Site map</a> 
-                        </small>
-                  </div>
-                  <div class="col-sm-6 text-center">
-                    <small>
-                        <a href="#" class="pr-4 text-secondary">Lugma is social</a>
-                        <a href="#">
-                            <i class="fa fa-facebook pr-4 text-secondary"></i>
-                            <i class="fa fa-twitter pr-4 text-secondary"></i>
-                            <i class="fa fa-google-plus text-secondary"></i>
-                        </a>
-                    </small>
-                  </div>
-              </div>
             </div>
+        </div>
     </section>
 
     

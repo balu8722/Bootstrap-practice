@@ -1,8 +1,5 @@
 .hsize{
-    font-size:xxx-large;
-}
-.slide-body{
-    margin: 300px;
+    font-size: 50px;    
 }
 .row-padding{
     padding-top: 110px;
@@ -41,4 +38,50 @@
 }
 .nav-menu{
     background-color: red;
+}
+.hline{
+    background: rgb(122, 121, 121);
+    height: 3px;
+    flex-grow: 1;
+}
+.home-slider{
+    position: relative;
+}
+.home-slider .slide{
+    padding:30px 200px;
+}
+.content-position{
+    position:absolute;
+}
+.main{
+    position: relative;
+}
+.arrow-right{
+    background: url(./../images/next.png) no-repeat;
+    background-size: 30px 30px;
+    background-position: center;
+    position: absolute;
+    right: 230px;
+    bottom: -60px;
+    width: 48px;
+    height: 48px;
+    color: #ffb533;
+    border: 1px solid #ffb533;   
+}
+.arrow-left{
+    background: url(./../images/prev.png) no-repeat;
+    background-size: 30px 30px;
+    background-position: center;
+    position: absolute;
+    right: 300px;
+    bottom: -60px;
+    width: 48px;
+    height: 48px;
+    color: #ffb533;
+    border: 1px solid #ffb533; 
+    z-index: 1;
+} 
+.slider-pad{
+    padding-bottom: 100px;
+    padding-top: 50px;
 }
