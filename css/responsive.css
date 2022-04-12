@@ -1,30 +1,49 @@
 /*Media Query for  Mobile */
 @media only screen and (max-width: 767px) {
-    .home-slider .slide{
-        padding:30px 30px;
-    }
-    .body-logo .col-sm-3{
-        margin-bottom: 10px;
-    }
-    .arrow-left{
-        left: 30%;
-    }
-    .arrow-right{
-        right: 30%;
-    }
+  .home-slider .slide {
+    padding: 30px 30px;
+  }
+  .body-logo .col-sm-3 {
+    margin-bottom: 32px;
+    align-self: center;
+  }
+  .arrow-left {
+    left: 30%;
+  }
+  .arrow-right {
+    right: 30%;
+  }
+  .card-picture {
+    width: 100%;
+    height: 237px;
+  }
+  .row-padding {
+    padding-top: 30px;
+  }
+  .counter-section .card {
+    padding: 0 30px;
+  }
+  .hsize {
+    font-size: 45px;
+  }
 }
 
-
-  /* Media Query for Tablets  */
-@media (min-width: 768px) and (max-width: 991px){
-    .card-picture{
-        width: 100%;
-        height: 300px;
-    }
-    .arrow-left{
-        left: 40%;
-    }
-    .arrow-right{
-        right: 40%;
-    }
+/* Media Query for Tablets  */
+@media (min-width: 768px) and (max-width: 991px) {
+  .card-picture {
+    width: 100%;
+    height: 300px;
+  }
+  .arrow-left {
+    left: 40%;
+  }
+  .arrow-right {
+    right: 40%;
+  }
+  .card .card-body .counter {
+    font-size: 70px;
+  }
+  .card .card-body .counter::after {
+    font-size: 70px;
+  }
 }

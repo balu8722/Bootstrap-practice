@@ -1,87 +1,120 @@
-.hsize{
-    font-size: 50px;    
+.hsize {
+  font-size: 80px;
 }
-.row-padding{
-    padding-top: 110px;
+.row-padding {
+  padding-top: 110px;
 }
-.btn-expand{
-    padding: 10px 20px 10px 20px;
-    font-size: 20px;
+.btn-expand {
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
 }
-.img-height{
-    width:100%;
-    height:100%;
+.img-height {
+  width: 100%;
+  height: 100%;
 }
-.menu-label .nav-item{
-    padding: 0 20px 0 20px;
+.menu-label .nav-item {
+  padding: 0 20px 0 20px;
 }
-.wrap{
-    background-color: black;
+.wrap {
+  background-color: black;
 }
-.img-logo{
-    width: 100%;
-    height: 50px;
-    object-fit: cover;
+.img-logo {
+  width: 222px;
+  height: 40px;
+  object-fit: cover;
+  opacity: 0.3;
 }
-.dropdown-toggle::after{
-    vertical-align: 0;
+.dropdown-toggle::after {
+  vertical-align: 0;
 }
-.card-background{
-    background-color: black;
+.card-background {
+  background-color: black;
 }
-.link-arrow img{
-    background-color: yellow;
-    margin: 50px 0px 0px 0;
+.link-arrow img {
+  background-color: yellow;
+  margin: 50px 0px 0px 0;
 }
-.link-arrow a{
-    text-decoration-line: underline;
+.link-arrow a {
+  text-decoration-line: underline;
 }
-.nav-menu{
-    background-color: red;
+.nav-menu {
+  background-color: red;
 }
-.hline{
-    background: rgb(122, 121, 121);
-    height: 3px;
-    flex-grow: 1;
+.hline {
+  background-image: url(../images/Group151.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  color: rgb(122, 121, 121);
+  height: 80px;
+  flex-grow: 1;
+  max-width: 761px;
 }
-.home-slider{
-    position: relative;
+.home-slider {
+  position: relative;
 }
-.home-slider .slide{
-    padding:30px 200px;
+.home-slider .slide {
+  padding: 30px 200px;
 }
-.content-position{
-    position:absolute;
+.content-position {
+  position: absolute;
 }
-.main{
-    position: relative;
+.main {
+  position: relative;
 }
-.arrow-right{
-    background: url(./../images/next.png) no-repeat;
-    background-size: 30px 30px;
-    background-position: center;
-    position: absolute;
-    right: 230px;
-    bottom: -60px;
-    width: 48px;
-    height: 48px;
-    color: #ffb533;
-    border: 1px solid #ffb533;   
+.arrow-right {
+  background: url(./../images/next.png) no-repeat;
+  background-size: 30px 30px;
+  background-position: center;
+  position: absolute;
+  right: 230px;
+  bottom: -60px;
+  width: 48px;
+  height: 48px;
+  color: #ffb533;
+  border: 1px solid #ffb533;
 }
-.arrow-left{
-    background: url(./../images/prev.png) no-repeat;
-    background-size: 30px 30px;
-    background-position: center;
-    position: absolute;
-    right: 300px;
-    bottom: -60px;
-    width: 48px;
-    height: 48px;
-    color: #ffb533;
-    border: 1px solid #ffb533; 
-    z-index: 1;
-} 
-.slider-pad{
-    padding-bottom: 100px;
-    padding-top: 50px;
+.arrow-left {
+  background: url(./../images/prev.png) no-repeat;
+  background-size: 30px 30px;
+  background-position: center;
+  position: absolute;
+  right: 300px;
+  bottom: -60px;
+  width: 48px;
+  height: 48px;
+  color: #ffb533;
+  border: 1px solid #ffb533;
+  z-index: 1;
+}
+.slider-pad {
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+.scrolled {
+  background: rgb(36 36 36 / 0.95);
+  transition: 5s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.card .card-body .counter {
+  font-size: 100px;
+  line-height: initial;
+}
+.card .card-body .counter::after {
+  content: "+";
+  font-size: 100px;
+  display: inline-block;
+}
+.card .card-body i {
+  font-size: 30px;
+}
+.card .card-body h4 {
+  margin-top: -30px;
+}
+.card .wrap img {
+  opacity: 0.2;
 }
