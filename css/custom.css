@@ -63,29 +63,35 @@
   position: relative;
 }
 .arrow-right {
-  background: url(./../images/next.png) no-repeat;
-  background-size: 30px 30px;
+  background: url(./../images/arrow-right.svg) no-repeat;
   background-position: center;
   position: absolute;
   right: 230px;
   bottom: -60px;
   width: 48px;
   height: 48px;
-  color: #ffb533;
   border: 1px solid #ffb533;
 }
+.arrow-right.slick-disabled {
+  background: url(./../images/right-arrow-inactive.png) no-repeat;
+ background-position: center;
+  border: 1px solid #626262;
+}
 .arrow-left {
-  background: url(./../images/prev.png) no-repeat;
-  background-size: 30px 30px;
+  background: url(./../images/left-arrow-active.png) no-repeat;
   background-position: center;
   position: absolute;
   right: 300px;
   bottom: -60px;
   width: 48px;
   height: 48px;
-  color: #ffb533;
   border: 1px solid #ffb533;
   z-index: 1;
+}
+.arrow-left.slick-disabled {
+  background: url(./../images/left-arrow-inactive.png) no-repeat;
+  background-position: center;
+  border: 1px solid #626262;
 }
 .slider-pad {
   padding-bottom: 100px;
@@ -117,4 +123,62 @@
 }
 .card .wrap img {
   opacity: 0.2;
+}
+.leftside-line{
+  background-color: #212121;
+  height: 3px;
+  flex-grow: 1;
+}
+.crew-slick{
+  position: relative;
+}
+.crew-slick .arrow-right {
+  background: url(./../images/arrow-right.svg) no-repeat;
+  background-position: center;
+  position: absolute;
+  right: 50px;
+  bottom: -60px;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #ffb533;
+}
+.crew-slick .arrow-right.slick-disabled {
+  background: url(./../images/right-arrow-inactive.png) no-repeat;
+ background-position: center;
+  border: 1px solid #626262;
+}
+.crew-slick .arrow-left {
+  background: url(./../images/left-arrow-active.png) no-repeat;
+  background-position: center;
+  position: absolute;
+  right: 115px;
+  bottom: -60px;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #ffb533;
+  z-index: 1;
+}
+.crew-slick .arrow-left.slick-disabled {
+  background: url(./../images/left-arrow-inactive.png) no-repeat;
+  background-position: center;
+  border: 1px solid #626262;
+}
+.blog-division .view a{
+  font-weight: 700;
+}
+/* footer styling starts */
+.footer li{
+  margin-bottom: 10px;
+}
+.footer li a{
+  color: #fff;
+  font-size:14px ;
+}
+
+.footer a,p{
+  color: #fff;
+  font-size:14px ;
+}
+.footer .copyright {
+ padding: 0 30px;
 }
